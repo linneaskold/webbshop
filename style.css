@@ -1,14 +1,37 @@
+/*
+margin skappar mellanrum
+background-color byter bakgrundsfärg
+width besämer hur bred den är horizontelt
+height bestämmer höjden, vertikalt
+padding top lägger till mellanrum till den övre delen
+color ändrar färg
+font family ändrar fonten
+font size ändrar storleken på texten, fonten
+letter-spacing ändrar mellanrummet mellan bokstäver
+float
+textdecoration: none tar bart decorativa saker från text
+padding generelt lägger till mellanrum
+
+
+
+*/
+
+/*här blir bakgrunden en specifik vit färg och man sätter*/
 body
 {
     margin:0px;
     background-color:gainsboro;
 }
 
+/*De med # är dem som använder div
+Man sätter margin auto för att centrera element horisontellt eller för att fördela ledigt utrymme automatisk i en layout
+*/
 #wrapper
 {
     width: 1400px;
     margin: auto;
 }
+
 
 #top
 {
@@ -22,6 +45,7 @@ body
     letter-spacing: 1px;
 }
 
+
 #toplinks
 {
     margin-left: 115px;
@@ -34,6 +58,7 @@ body
     text-decoration:none;
 }
 
+/*a:hover gör så att länkarna blir röda när man hur muspekaren över dem*/
 #top a:hover 
 {
     color: #f7641d;
@@ -51,6 +76,7 @@ body
     margin-left: 220px;
 }
 
+/*Dehär under stylar alls som är i div header  och dem andra # med namnedn right, left och mid styler specifikt dem delarna på webbsidan*/
 #header
 {
     height:81px;
