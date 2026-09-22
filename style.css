@@ -126,13 +126,13 @@ Man sätter margin auto för att centrera element horisontellt eller för att f�
 
 #frontImage
 {
-    background-image: url(images/front.jpg);
+    background-image: url(bambini\ bilder/front.jpg);
     height: 582px;
 
 }
 
 
-#shopNowButton
+#ShopNowButton
 {
     background-color: #f7641d;
     font-family: Verdana, sans-serif;
@@ -143,8 +143,110 @@ Man sätter margin auto för att centrera element horisontellt eller för att f�
     height: 52px;
     border: 0px;
     position: relative;
-    top: 364px;
-    left: 124px;
+    top: 365.5px;
+    left: 214px;
     cursor: pointer;
 
+}
+
+#ShopNowButton:hover
+{
+    background-color: #f7a71d;
+}
+
+
+#categories
+{
+    height: 410px;
+    background-color: #ffffff;
+}
+
+#Categories table
+{
+    margin: auto;
+    padding-right: 30px;
+}
+
+#Categories td
+{
+    padding: 30px, 0px, 0px, 30px;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color:#000000;
+    text-align: center;
+}
+
+#Categories td a
+{
+    text-decoration: none;
+}
+
+#Categories td a:hover
+{
+    color: #f7641d
+}
+
+#newsletter
+{
+    background-image: url(bambini\ bilder/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-color: #c69c6c;
+    height:218px;
+    padding-top: 100px;
+}
+
+#newsletter h1
+{
+    display:inline;
+    font-size: 58px;
+    margin-right:46px;
+}
+
+#newsletter h2
+{
+    display:inline;
+    font-weight: lighter;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-right: 40px;
+}
+
+#email
+{
+    height:34px;
+    width:380;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+    position:relative;
+    top: -6px;
+}
+
+#subscribebutton
+{
+    background-color: #252525;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    height: 40px;
+    width: 404px;
+    position: relative;
+    top: -12px;
+}
+
+#subscribebutton
+{
+    background-color: #353535;
+    color:#f7941d;
+    cursor: pointer;
+}
+
+#newsletter
+{
+    letter-spacing: 0px;
+    font-size: 13px;
+    text-align: center;
+    padding-right: 260px;
 }
