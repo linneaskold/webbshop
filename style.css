@@ -118,3 +118,33 @@ Man sätter margin auto för att centrera element horisontellt eller för att f�
     margin-left: 120px;
     padding-top:34px;
 }
+
+
+
+
+
+
+#frontImage
+{
+    background-image: url(images/front.jpg);
+    height: 582px;
+
+}
+
+
+#shopNowButton
+{
+    background-color: #f7641d;
+    font-family: Verdana, sans-serif;
+    font-size:18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    width:196px;
+    height: 52px;
+    border: 0px;
+    position: relative;
+    top: 364px;
+    left: 124px;
+    cursor: pointer;
+
+}
